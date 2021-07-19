@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#990000</color>
+    <color name="colorPrimaryDark">#81021B</color>
+    <color name="colorAccent">#776A6A</color>
+
+    <color name="colorBackground">#413e4f</color>
+    <color name="red">#990000</color>
+    <color name="colorText">#FFFFFF</color>
+    <color name="colorTextHint">#2B2A2A</color>
+    <color name="backgroundActivity">#32CD32</color>
+</resources>

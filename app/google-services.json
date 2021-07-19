@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "154654307351",
+    "firebase_url": "https://freeride-ee1d1.firebaseio.com",
+    "project_id": "freeride-ee1d1",
+    "storage_bucket": "freeride-ee1d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154654307351:android:07deb633a8bc98fabd9852",
+        "android_client_info": {
+          "package_name": "com.example.mpip.freeride"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154654307351-3orjg7rpiba129ckds0i2gjvk2el1q6m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mpip.freeride",
+            "certificate_hash": "70f7cf8327e8849264062d4d5e950b4bd8d52388"
+          }
+        },
+        {
+          "client_id": "154654307351-1825cfvibkfukt3dv0vt99b101h1jqr8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCut-w-Io8FnlfRNzVVY6qtiboYc59bBOo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154654307351-1825cfvibkfukt3dv0vt99b101h1jqr8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

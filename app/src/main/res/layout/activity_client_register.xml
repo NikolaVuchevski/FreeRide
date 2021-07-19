@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constrainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/pozz"
+        tools:context=".RegisterActivity">
+
+        <EditText
+            android:id="@+id/reg_ime"
+            android:layout_width="281dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/darkbackwithborder"
+            android:ems="10"
+            android:fontFamily="sans-serif-medium"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/reg_surname"
+            android:layout_width="281dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/darkbackwithborder"
+            android:ems="10"
+            android:fontFamily="sans-serif-medium"
+            android:hint="Surname"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/reg_ime" />
+
+        <EditText
+            android:id="@+id/reg_tel"
+            android:layout_width="281dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/darkbackwithborder"
+            android:ems="10"
+            android:fontFamily="sans-serif-medium"
+            android:hint="Telephone"
+            android:paddingLeft="20dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/reg_surname" />
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="74dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="76dp"
+            android:layout_marginEnd="8dp"
+            android:background="@color/red"
+            app:backgroundTint="@color/colorPrimaryDark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.927"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/reg_tel"
+            app:srcCompat="@drawable/ic_keyboard_arrow_right_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

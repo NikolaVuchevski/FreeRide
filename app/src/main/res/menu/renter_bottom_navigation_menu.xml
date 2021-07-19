@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+    <item
+            android:id="@+id/ic_bikes"
+            android:icon="@drawable/ic_bikes"
+            android:title="Available bikes"/>
+    <item
+            android:id="@+id/ic_rented_bikes"
+            android:icon="@drawable/rented_bike"
+            android:title="Rented bikes"
+    />
+    <item
+            android:id="@+id/ic_exit"
+            android:icon="@drawable/ic_exit"
+            android:title="Log out"
+    />
+
+
+</menu>

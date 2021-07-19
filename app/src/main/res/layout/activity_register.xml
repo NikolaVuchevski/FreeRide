@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constrainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/pozz"
+        tools:context=".RegisterActivity">
+
+        <EditText
+            android:id="@+id/reg_email"
+            android:layout_width="281dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/darkbackwithborder"
+            android:ems="10"
+            android:fontFamily="sans-serif-medium"
+            android:hint="E-mail"
+            android:paddingLeft="20dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/reg_pass"
+            android:layout_width="281dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/darkbackwithborder"
+            android:ems="10"
+            android:fontFamily="sans-serif-medium"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/reg_email" />
+
+        <EditText
+            android:id="@+id/reg_confirm"
+            android:layout_width="281dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/darkbackwithborder"
+            android:ems="10"
+            android:fontFamily="sans-serif-medium"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/reg_pass" />
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="500dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/reg_confirm"
+            app:layout_constraintVertical_bias="1.0">
+
+            <Button
+                android:id="@+id/signup"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="5dp"
+                android:background="@color/colorPrimary"
+                android:scaleType="center"
+                android:text="Register as renter"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/signup2"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/colorPrimary"
+                android:minWidth="0dp"
+                android:scaleType="center"
+                android:text="Register as client"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#ffffff" />
+        </androidx.appcompat.widget.Toolbar>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
